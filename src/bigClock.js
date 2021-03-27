@@ -36,6 +36,7 @@ export default class BigClock extends Component {
         // Alert the hour of the mini clocks
         if (this.state.clocktime.getMinutes() == 0 && this.state.clocktime.getSeconds() == 0) {
             hourAlert = `Its ${this.state.clocktime.getHours()} o' clock`
+            console.log(hourAlert);
         }
 
         return (
