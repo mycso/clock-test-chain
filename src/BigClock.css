@@ -1,0 +1,134 @@
+.bigClock {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  color: #444;
+  text-align: center;
+  margin: 50px auto;
+  background: #333;
+}
+
+.bigClock::after {
+  background: #aaa;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+}
+
+.big_hour_hand {
+  position: absolute;
+  width: 6px;
+  height: 120px;
+  background: #eee;
+  top: 20%;
+  left: 49%;
+  transform-origin: bottom;
+}
+
+.big_min_hand {
+  position: absolute;
+  width: 4px;
+  height: 150px;
+  background: #efefef;
+  top: 12.5%;
+  left: 49%;
+  transform-origin: bottom;
+}
+
+.big_sec_hand {
+  position: absolute;
+  width: 2px;
+  height: 118px;
+  background: red;
+  top: 20.5%;
+  left: 50%;
+  transform-origin: bottom;
+}
+
+.bigClock span {
+  position: absolute;
+  font-family: fantasy;
+  font-weight: 700;
+}
+
+.twelveMain {
+  top: 10px;
+  left: 46%;
+  color: #efefef;
+}
+
+.oneMain {
+  top: 10%;
+  right: 26%;
+  color: #efefef;
+}
+
+.elevenMain {
+  top: 10%;
+  left: 26%;
+  color: #efefef;
+}
+
+.twoMain {
+  top: 25%;
+  right: 10%;
+  color: #efefef;
+}
+
+.threeMain {
+  right: 10px;
+  top: 46%;
+  color: #efefef;
+}
+
+.fourMain {
+  right: 30px;
+  top: 67%;
+  color: #efefef;
+}
+
+.fiveMain {
+  right: 98px;
+  top: 80%;
+  color: #efefef;
+}
+
+.sixMain {
+  bottom: 10px;
+  left: 50%;
+  color: #efefef;
+}
+
+.sevenMain {
+  left: 100px;
+  top: 82%;
+  color: #efefef;
+}
+
+.eightMain {
+  left: 30px;
+  top: 67%;
+  color: #efefef;
+}
+
+.nineMain {
+  left: 10px;
+  top: 46%;
+  color: #efefef;
+}
+
+.tenMain {
+  top: 25%;
+  left: 10%;
+  color: #efefef;
+}

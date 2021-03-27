@@ -1,0 +1,19 @@
+.ClockApp {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.Clock {
+  display: inline-block;
+  width: 25%;
+  margin: 50px auto;
+}
+
+.MainClock {
+  display: inline-block;
+  width: 45%;
+}
+
+h1 {
+  font-family: fantasy;
+}
